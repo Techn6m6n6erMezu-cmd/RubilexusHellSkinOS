@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <div style={{ width: '100vw', height: '100vh', background: 'black' }}>
-      <Canvas camera={{ position: [0, 12, 20], fov: 40 }}>
+      <div className="iso-stage">
         <color attach="background" args={['#000']} />
         <fog attach="fog" args={['#000', 10, 30]} />
         
@@ -77,7 +77,7 @@ export default function App() {
           minDistance={10}
           maxDistance={35}
         />
-      </Canvas>
+      </div>
     </div>
   );
 }
