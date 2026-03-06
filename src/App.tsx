@@ -53,7 +53,7 @@ export default function App() {
         <color attach="background" args={['#000']} />
         <fog attach="fog" args={['#000', 10, 30]} />
         
-        <ambientLight intensity={10.0} />
+        <ambientLight intensity={2.5} />
         <pointLight position={[0, 15, 0]} intensity={2.5} color="#ff0000" />
         
         <Stars radius={100} depth={50} count={6000} factor={4} saturation={0} fade speed={1} />
